@@ -2,7 +2,7 @@
 
 Note that for the below steps, we should detect if the track has already made this change (which the v3 tracks should have done) and use the v3 config.json values when update the v2 config.json file.
 
-Any settings defined in the v3 config.json will take precedence of the v2 config.json. 
+Any settings defined in the v3 config.json will take precedence of the v2 config.json.
 
 1. Add a version property:
 
@@ -75,7 +75,7 @@ Any settings defined in the v3 config.json will take precedence of the v2 config
 "key_features": []
 ```
 
-13. Add a top-level `"v3_ready"` key, which is a boolean value that is set to `true` if the track is a v3 track, and otherwise set to `false`:
+13. Add a top-level `"v3_ready"` key, which is a boolean value that is set to `true` if the track has a `config.json` file in the v3 repo, and otherwise set to `false`:
 
 ```json
 "v3_ready": true
