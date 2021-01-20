@@ -1,6 +1,6 @@
-# V3 launch
+# v3 launch
 
-This repo contains information on the launching of Exercism V3.
+This repo contains information on the launching of Exercism v3.
 
 ## Migration
 
