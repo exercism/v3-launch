@@ -80,3 +80,9 @@ Any settings defined in the v3 config.json will take precedence of the v2 config
 ```json
 "v3_ready": true
 ```
+
+14. Add a top-level `"slug"` key, which is a string containing the track's slug:
+
+```json
+"slug": "csharp"
+```
