@@ -7,7 +7,8 @@ Concept Exercises and Practice Exercises are linked to each other via [Concepts]
 For example, in some languages completing the Concept Exercises that teach "String Interpolation"  and "Optional Parameters" might then unlock `two-fer`.
 
 
-Each Practice Exercise should have one or more prerequisites, where each prerequisite describes the minimal set of concepts the Practice Exercise requires the student to be familiar with.
+Each Exercise should have one or more prerequisites, where each prerequisite describes the minimal set of concepts the Practice Exercise requires the student to be familiar with. The only exception is a single initial Concept Exercise (normally targeting the `basics` Concept)
+
 
 There doesn't have to be a Concept Exercise that unlocks each prerequisite, although ideally there should be. If a Concept is not unlocked by any Concept Exercise, we'll considered to be unlocked for the purpose of unlocking the Practice Exercise.
 
