@@ -3,7 +3,7 @@ To prepare each track for Exercism v3, we'll create a PR to automatically update
 There are two types of tracks:
 
 - v3 tracks: these tracks have done work to get the track ready for v3. Their contents is located in the [v3 repo](https://github.com/exercism/v3).
-- v2 tracks: these tracks have _not_ done any work to get the track ready for v3. Their contents is located in the track's repo.
+- v2 tracks: these tracks have _not_ done any work to get the track ready for v3. The contents of these tracks are located in the track's repo.
 
 Depending on which category your track falls into, we will run the following:
 
