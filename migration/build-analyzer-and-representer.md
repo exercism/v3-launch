@@ -14,11 +14,9 @@ The representer is an optional tool, which means that if a track does not have a
 
 In Exercism v3, we are making increased use of our v2 [analyzers](https://github.com/exercism/v3-docs/tree/master/anatomy/track-tooling/analyzers). Analyzers automatically assess student's submissions and provide mentor-style commentary. They can be used to catch common mistakes and/or do complex solution analysis that can't easily be done directly in a test suite.
 
-In V2, analyzer comments were given to a mentor to pass to a student. In V3, the analyzers will normally output directly to students, although we have added an extra key to output suggestions to mentors. If your track already has an analyzer, the only requisite change is updating the outputted copy to be student-facing.
+In v2, analyzer comments were given to a mentor to pass to a student. In v3, the analyzers will normally output directly to students, although we have added an extra key to output suggestions to mentors. If your track already has an analyzer, the only requisite change is updating the outputted copy to be student-facing.
 
 Whenever a solution is submitted, a Docker container is created of the analyzer image and it runs on the submitted solution. The analyzer outputs a JSON file that contains the analysis results. See [the spec](https://github.com/exercism/v3-docs/blob/master/anatomy/track-tooling/analyzers/interface.md).
-
-Note that some tracks have already implemented an experimental v2 analyzer, which the v3 analyzer is an evolution of.
 
 The analyzer is an optional tool, which means that if a track does not have an analyzer, it will still function normally.
 
