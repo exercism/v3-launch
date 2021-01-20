@@ -5,6 +5,8 @@ There are two types of tracks:
 - V3 tracks: these tracks have done work to get the track ready for v3. Their contents is located in the [v3 repo](https://github.com/exercism/v3).
 - V2 tracks: these tracks have _not_ done any work to get the track ready for v3. Their contents is located in the track's repo.
 
+Depending on which category your track falls into, we will run the following:
+
 ## Migrate V2 tracks
 
 1. Migrate the [config.json](./migrate-config-json.md) file
