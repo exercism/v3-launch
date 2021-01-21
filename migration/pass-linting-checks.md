@@ -1,6 +1,6 @@
 # Pass linting checks
 
-The [configlet tool](https://github.com/exercism/configlet) has a `lint` command that checks if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism.
+The [configlet tool](https://github.com/exercism/canonical-data-syncer) has a `lint` command that checks if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism.
 
 We've updated configlet to work with v3 tracks, which have a different set of requirements than v2 tracks.
 
