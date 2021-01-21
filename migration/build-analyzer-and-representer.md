@@ -26,7 +26,8 @@ The analyzer is an optional tool though, which means that if a track does not ha
 
 ## Choosing between representer and analyzer
 
-If you want to build both, our recommendation is to start building the representer first for the following reasons:
+We recommend starting by building the representer for the following reasons:
+
 
 - Representers are usually (far) easier to implement
 - Representers can have a far bigger impact on the mentoring load than analyzers by empowering mentors
