@@ -4,4 +4,8 @@ This repo contains information on the launching of Exercism v3.
 
 # Rationale
 
-If you are interested in why we've built Exercism v3, please check [this document](./rationale-for-v3.md)
+You can read up on why we've built Exercism v3 [here](./rationale-for-v3.md).
+
+## Migration
+
+You can find a description of the migration steps [here](./migration/README.md).
