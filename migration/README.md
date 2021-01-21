@@ -10,14 +10,14 @@ Depending on which category your track falls into, we will run the following:
 ## Migrate v2 tracks
 
 1. Migrate the [config.json](./migrate-config-json.md) file
-1. Setup [continuous-integration](./continuous-integration)
+1. Setup [continuous-integration](./continuous-integration.md)
 1. Create [follow-up issues](./create-follow-up-issues.md)
 
 ## Migrate v3 tracks
 
 1. Migrate the [config.json](./migrate-config-json.md) file
 1. Migrate the [v3 files](./migrate-files.md)
-1. Setup [continuous-integration](./continuous-integration)
+1. Setup [continuous-integration](./continuous-integration.md)
 1. Create [follow-up issues](./create-follow-up-issues.md)
 
 ## Tracking
