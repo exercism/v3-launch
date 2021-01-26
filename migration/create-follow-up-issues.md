@@ -4,6 +4,7 @@
 - [Add key features](./add-key-features)
 - [Add tags](./add-tags.md)
 - [Add prerequisites to Practice Exercises](./add-prerequisites-to-practice-exercises.md)
+- [Update status](./update-status.md)
 - [Pass linting checks](./pass-linting-checks.md)
 - [Build Test Runner](./build-test-runner.md)
 - [Build Analyzer and Representer](./build-analyzer-and-representer.md) (optional)
