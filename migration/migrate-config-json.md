@@ -75,10 +75,15 @@ Any settings defined in the v3 config.json will take precedence of the v2 config
 "key_features": []
 ```
 
-13. Add a top-level `"v3_ready"` key, which is a boolean value that is set to `true` if the track has a `config.json` file in the v3 repo, and otherwise set to `false`:
+13. Add a top-level `"status"` key, which is an object containing properties with boolean values indicating if a v3 feature is implemented:
 
 ```json
-"v3_ready": true
+"status": {
+  "concept_exercises": true,
+  "test_runner": true,
+  "representer": false,
+  "analyzer": false
+}
 ```
 
 14. Add a top-level `"slug"` key, which is a string containing the track's slug:
