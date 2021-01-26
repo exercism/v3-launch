@@ -6,6 +6,7 @@
 1. Copy the v3 `languages/<slug>/reference` directory to the `reference` directory
 1. Copy the v3 `languages/<slug>/docs` directory to the `docs` directory
 1. Update the `fetch-configlet` and `fetch-configlet.ps1` files to the latest version
+1. Convert relative links that point to v3 documents outside the track's directory to absolute links.
 
 ## Notes
 
