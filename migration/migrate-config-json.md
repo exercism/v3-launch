@@ -91,3 +91,9 @@ Any settings defined in the v3 config.json will take precedence of the v2 config
 ```json
 "slug": "csharp"
 ```
+
+15. Re-order the practice exercises using the following ordering:
+
+1. Core exercises, retaining their existing ordering
+2. Non-core exercises, ordered by the order of the core exercise that unlocks them, then by difficulty and then alphabetically.
+3. Bonus exercises, ordered by difficulty then alphabetically.
