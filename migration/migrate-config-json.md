@@ -97,3 +97,17 @@ Any settings defined in the v3 config.json will take precedence of the v2 config
     1. Core exercises, retaining their existing ordering
     2. Non-core exercises, ordered by the order of the core exercise that unlocks them, then by difficulty and then alphabetically.
     3. Bonus exercises, ordered by difficulty then alphabetically.
+
+16. Add the `"status"` key with a value of `"deprecated"` for practice exercises that have `"deprecated"` set to `true`. The `deprecated` field itself is removed:
+
+```json
+{
+  "slug": "octal",
+  "name": "Octal",
+  "uuid": "f29f9e56-c79b-4ae4-a0d0-29db78c677e4",
+  "prerequisites": [],
+  "difficulty": 0,
+  "topics": ["integers"],
+  "status": "deprecated"
+}
+```
